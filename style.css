@@ -1,0 +1,35 @@
+.background{
+    height: 100vh;
+    background: url(background_food.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#main_background{
+    width: 100%; 
+    margin:0 auto;
+    animation: fadein 5s ease 3s;
+  -webkit-animation: fadein 3s;
+}
+
+#main_background div{
+    width: 100%;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
